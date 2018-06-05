@@ -1,0 +1,18 @@
+﻿<Page x:Class="ClientApp1.PageAddress"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ClientApp1"
+      mc:Ignorable="d"
+      Title="PageAddress" Width="588.236" Height="404.621">
+
+    <Grid Margin="31,10,78,49" Opacity="0.96">
+        <TextBox Name="port" HorizontalAlignment="Left" Height="29" Margin="44,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="162"/>
+        <TextBox Name="address" HorizontalAlignment="Left" Height="29" Margin="262,126,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="166"/>
+        <Button Click="Button_Clik" Content="Проверка" HorizontalAlignment="Left" Height="26" Margin="172,319,0,0" VerticalAlignment="Top" Width="137"/>
+        <Label Content="Port" HorizontalAlignment="Left" Height="23" Margin="47,98,0,0" VerticalAlignment="Top" Width="105"/>
+        <Label Content="Address" HorizontalAlignment="Left" Height="23" Margin="261,98,0,0" VerticalAlignment="Top" Width="105"/>
+
+    </Grid>
+</Page>
